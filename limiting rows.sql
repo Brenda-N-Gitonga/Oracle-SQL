@@ -1,4 +1,4 @@
-SELECT contracted_stems,crop_id
+	SELECT contracted_stems,crop_id
 from customer_contracts 
 where  contracted_stems > 25000 
 order by contracted_stems desc
